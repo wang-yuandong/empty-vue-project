@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# 如果使用的是 npm/yarn 且 npm 版本为 v8 及以下，就加下面的命令
+# npx commitlint --edit "$1"
+
+# 如果使用的是 npm/yarn 且 npm 版本为 v9 及以上，就加下面的命令
+# npm exec commitlint --edit "$1"
+
+# 如果使用的是 pnpm，就加下面的命令
+ pnpm exec commitlint --edit "$1"
+
+# ! 注意，上面的这三个命令必须根据实际情况来选择，且只能存在一个
