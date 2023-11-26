@@ -37,6 +37,9 @@ devDependencies:
   amfe-flexible:
     specifier: ^2.2.1
     version: registry.npmmirror.com/amfe-flexible@2.2.1
+  autoprefixer:
+    specifier: ^10.4.16
+    version: registry.npmmirror.com/autoprefixer@10.4.16(postcss@8.4.31)
   eslint:
     specifier: ^8.49.0
     version: registry.npmmirror.com/eslint@8.53.0
@@ -1320,6 +1323,25 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+  registry.npmmirror.com/autoprefixer@10.4.16(postcss@8.4.31):
+    resolution: {integrity: sha512-7vd3UC6xKp0HLfua5IjZlcXvGAGy7cBAXTg2lyQ/8WpNhd6SiZ8Be+xm3FyBSYJx5GKcpRCzBh7RH4/0dnY+uQ==, registry: https://packages.aliyun.com/5efd5472ebe48b2dfc27b8a9/npm/npm-registry/, tarball: https://registry.npmmirror.com/autoprefixer/-/autoprefixer-10.4.16.tgz}
+    id: registry.npmmirror.com/autoprefixer/10.4.16
+    name: autoprefixer
+    version: 10.4.16
+    engines: {node: ^10 || ^12 || >=14}
+    hasBin: true
+    peerDependencies:
+      postcss: ^8.1.0
+    dependencies:
+      browserslist: registry.npmmirror.com/browserslist@4.22.1
+      caniuse-lite: registry.npmmirror.com/caniuse-lite@1.0.30001561
+      fraction.js: registry.npmmirror.com/fraction.js@4.3.7
+      normalize-range: registry.npmmirror.com/normalize-range@0.1.2
+      picocolors: registry.npmmirror.com/picocolors@1.0.0
+      postcss: registry.npmmirror.com/postcss@8.4.31
+      postcss-value-parser: registry.npmmirror.com/postcss-value-parser@4.2.0
+    dev: true
+
   registry.npmmirror.com/balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==, registry: https://packages.aliyun.com/5efd5472ebe48b2dfc27b8a9/npm/npm-registry/, tarball: https://registry.npmmirror.com/balanced-match/-/balanced-match-1.0.2.tgz}
     name: balanced-match
@@ -2137,6 +2159,12 @@ packages:
     resolution: {integrity: sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==, registry: https://packages.aliyun.com/5efd5472ebe48b2dfc27b8a9/npm/npm-registry/, tarball: https://registry.npmmirror.com/flatted/-/flatted-3.2.9.tgz}
     name: flatted
     version: 3.2.9
+    dev: true
+
+  registry.npmmirror.com/fraction.js@4.3.7:
+    resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==, registry: https://packages.aliyun.com/5efd5472ebe48b2dfc27b8a9/npm/npm-registry/, tarball: https://registry.npmmirror.com/fraction.js/-/fraction.js-4.3.7.tgz}
+    name: fraction.js
+    version: 4.3.7
     dev: true
 
   registry.npmmirror.com/fs-extra@11.1.1:
@@ -2987,6 +3015,13 @@ packages:
       validate-npm-package-license: registry.npmmirror.com/validate-npm-package-license@3.0.4
     dev: true
 
+  registry.npmmirror.com/normalize-range@0.1.2:
+    resolution: {integrity: sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==, registry: https://packages.aliyun.com/5efd5472ebe48b2dfc27b8a9/npm/npm-registry/, tarball: https://registry.npmmirror.com/normalize-range/-/normalize-range-0.1.2.tgz}
+    name: normalize-range
+    version: 0.1.2
+    engines: {node: '>=0.10.0'}
+    dev: true
+
   registry.npmmirror.com/npm-run-path@4.0.1:
     resolution: {integrity: sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==, registry: https://packages.aliyun.com/5efd5472ebe48b2dfc27b8a9/npm/npm-registry/, tarball: https://registry.npmmirror.com/npm-run-path/-/npm-run-path-4.0.1.tgz}
     name: npm-run-path
@@ -3229,6 +3264,12 @@ packages:
     dependencies:
       cssesc: registry.npmmirror.com/cssesc@3.0.0
       util-deprecate: registry.npmmirror.com/util-deprecate@1.0.2
+    dev: true
+
+  registry.npmmirror.com/postcss-value-parser@4.2.0:
+    resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==, registry: https://packages.aliyun.com/5efd5472ebe48b2dfc27b8a9/npm/npm-registry/, tarball: https://registry.npmmirror.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz}
+    name: postcss-value-parser
+    version: 4.2.0
     dev: true
 
   registry.npmmirror.com/postcss@8.4.31:
