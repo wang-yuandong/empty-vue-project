@@ -17,7 +17,7 @@ export default defineConfig({
     }),
     Components({
       resolvers: [ElementPlusResolver()],
-      // exclude:['/src']
+      directoryAsNamespace: true,
     })
   ],
   resolve: {
